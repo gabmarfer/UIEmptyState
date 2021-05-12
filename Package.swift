@@ -10,5 +10,6 @@ let package = Package(
     ],
     targets: [
        .target(name: "UIEmptyState", dependencies: [], path: "src"),
+       .testTarget(name: "UIEmptyStateTests", dependencies: [], path: "src"),
     ]
 )
